@@ -14,8 +14,9 @@ CONTACT: techbitar at gmail dot com (techbitar.com)
 // AT+NAME=blabla
 // AT+PASWD=1234
 // AT+UART=38400,0,0
+// AT+CLASS=0808 // toy_vehicle
 
-SoftwareSerial BTSerial(10, 11); // RX | TX
+SoftwareSerial BTSerial(12, 2); // RX pin , TX pin
 
 void setup()
 {
